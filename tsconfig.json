@@ -1,0 +1,11 @@
+{
+  "extends": "./node_modules/@capsuul/typescript-config/react-native",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "declaration": true,
+    "noEmit": false,
+    "module": "ES2020",
+    "jsx": "react-native"
+  },
+  "include": ["./src/**/*"]
+}
